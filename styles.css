@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 0.5em;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: red;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.nft-img{
+    width: 80%;
+    height: auto;
+    max-height: 60%;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.avatar-img{
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+}
