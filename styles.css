@@ -14,8 +14,7 @@ main{
     align-items: center;
     height: 100vh;
     background-color: hsl(217, 54%, 11%);
-    min-width: 100%;
-    max-width: 3000px;
+    max-width: 100%;
     font-family: 'Outfit', sans-serif;
 }
 .container{
